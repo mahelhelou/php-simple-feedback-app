@@ -1,5 +1,6 @@
-<?php // PDO Database Connection
+<?php
 
+// PDO Database Connection
 $host = 'localhost';
 $db_name = 'feedback_app';
 $user = 'root';
@@ -15,5 +16,3 @@ try {
 	// Connection failed, handle the error
 	echo die('<h3>Connection failed: ' . $e->getMessage() . '</h3>');
 }
-
-?>
